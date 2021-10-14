@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <ImageView
+        android:id="@+id/img_avg"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/avengers" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_avg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Avengers: Infinity War"
+                android:layout_margin="8dp"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Es una película de superhéroes estadounidense de 2019 basada en el equipo de superhéroes Los Vengadores de Marvel Comics. Producida por Marvel Studios y distribuida por Walt Disney Studios Motion Pictures, es la secuela directa de Avengers: Infinity War (2018) y la película número 22 del Universo cinematográfico de Marvel (UCM)."
+                android:layout_marginHorizontal="8dp"
+                android:justificationMode="inter_word"/>
+        </LinearLayout>
+
+</LinearLayout>
